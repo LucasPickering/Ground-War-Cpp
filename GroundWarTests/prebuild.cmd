@@ -1,0 +1,1 @@
+../cxxtest-4.4/bin/cxxtestgen --error-print ../GroundWar/GroundWarTestSuite.cpp -o runner.cpp

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\tile">
+      <UniqueIdentifier>{c21b011e-b12e-4d00-955b-de2c15a26e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\unit">
+      <UniqueIdentifier>{df05a49c-1aa0-4b2f-bc6d-0cb4fa8d9369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tile">
+      <UniqueIdentifier>{f2e5dc70-abb0-401a-8356-490f8534e93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\unit">
+      <UniqueIdentifier>{6fa495d1-d179-42cb-b034-9dc2486975c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cleanup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MountainTile.h">
+      <Filter>Header Files\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldTile.h">
+      <Filter>Header Files\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnTile.h">
+      <Filter>Header Files\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTile.h">
+      <Filter>Header Files\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Header Files\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiTank.h">
+      <Filter>Header Files\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Marines.h">
+      <Filter>Header Files\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnableTile.h">
+      <Filter>Header Files\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldTile.cpp">
+      <Filter>Source Files\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnTile.cpp">
+      <Filter>Source Files\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="MountainTile.cpp">
+      <Filter>Source Files\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTile.cpp">
+      <Filter>Source Files\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiTank.cpp">
+      <Filter>Source Files\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Source Files\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Marines.cpp">
+      <Filter>Source Files\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnableTile.cpp">
+      <Filter>Source Files\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundWarTestSuite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
